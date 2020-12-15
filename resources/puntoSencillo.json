@@ -1,0 +1,14 @@
+{
+    "servicio": {
+        "Servicio": {
+            "esOnline": true,
+            "esVigente": true,
+            "valorProyectoMax": 50,
+            "esUnAlta": true,
+            "presupuestoAprobado": true
+        }
+    }
+}
+
+// container id: puntoSencillo
+// process id:  puntoSencillo.PuntoSencilloBusinessProcess

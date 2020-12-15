@@ -8,49 +8,49 @@ public class Servicio implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Online")
+	@org.kie.api.definition.type.Label("Online")
 	private java.lang.Boolean esOnline;
-	@org.kie.api.definition.type.Label(value = "Vigente")
+	@org.kie.api.definition.type.Label("Vigente")
 	private java.lang.Boolean esVigente;
-	@org.kie.api.definition.type.Label(value = "Equipo")
+	@org.kie.api.definition.type.Label("Equipo")
 	private java.lang.String equipo;
-	@org.kie.api.definition.type.Label(value = "Ms")
+	@org.kie.api.definition.type.Label("Ms")
 	private java.lang.String ms;
-	@org.kie.api.definition.type.Label(value = "Ds")
+	@org.kie.api.definition.type.Label("Ds")
 	private java.lang.String ds;
-	@org.kie.api.definition.type.Label(value = "Ciudad")
+	@org.kie.api.definition.type.Label("Ciudad")
 	private java.lang.String ciudad;
-	@org.kie.api.definition.type.Label(value = "Direccion")
+	@org.kie.api.definition.type.Label("Direccion")
 	private java.lang.String direccion;
-	@org.kie.api.definition.type.Label(value = "Tipo Producto")
+	@org.kie.api.definition.type.Label("Tipo Producto")
 	private java.lang.String tipoProducto;
-	@org.kie.api.definition.type.Label(value = "Tipo Servicio")
+	@org.kie.api.definition.type.Label("Tipo Servicio")
 	private java.lang.String tipoServicio;
-	@org.kie.api.definition.type.Label(value = "Alta")
+	@org.kie.api.definition.type.Label("Alta")
 	private java.lang.Boolean esUnAlta;
-	@org.kie.api.definition.type.Label(value = "Banwidth")
+	@org.kie.api.definition.type.Label("Banwidth")
 	private java.lang.Double banwidth;
-	@org.kie.api.definition.type.Label(value = "Valor Proyecto")
+	@org.kie.api.definition.type.Label("Valor Proyecto")
 	private double valorProyecto;
-	@org.kie.api.definition.type.Label(value = "Recursos Disponibles")
+	@org.kie.api.definition.type.Label("Recursos Disponibles")
 	private java.lang.Boolean recursosDisponibles;
-	@org.kie.api.definition.type.Label(value = "Disponibildad Equipos")
+	@org.kie.api.definition.type.Label("Disponibildad Equipos")
 	private java.lang.Boolean disponibildadEquipos;
-	@org.kie.api.definition.type.Label(value = "Disponibildad Equipos SAP")
+	@org.kie.api.definition.type.Label("Disponibildad Equipos SAP")
 	private java.lang.Boolean disponibildadEquiposSAP;
-	@org.kie.api.definition.type.Label(value = "Construccion UK")
+	@org.kie.api.definition.type.Label("Construccion UK")
 	private java.lang.Boolean construccionUK;
-	@org.kie.api.definition.type.Label(value = "Viabilidad UK")
+	@org.kie.api.definition.type.Label("Viabilidad UK")
 	private java.lang.Boolean viabilidadUK;
-	@org.kie.api.definition.type.Label(value = "Valor Proyecto Max")
+	@org.kie.api.definition.type.Label("Valor Proyecto Max")
 	private java.lang.Double valorProyectoMax;
-	@org.kie.api.definition.type.Label(value = "Presupuesto Aprobado")
+	@org.kie.api.definition.type.Label("Presupuesto Aprobado")
 	private java.lang.Boolean presupuestoAprobado;
-	@org.kie.api.definition.type.Label(value = "Mensaje")
+	@org.kie.api.definition.type.Label("Mensaje")
 	private java.lang.String mensaje;
-	@org.kie.api.definition.type.Label(value = "Orden Trabajo")
+	@org.kie.api.definition.type.Label("Orden Trabajo")
 	private java.lang.Boolean ordenTrabajo;
-	@org.kie.api.definition.type.Label(value = "Instalar Equipos Movistar")
+	@org.kie.api.definition.type.Label("Instalar Equipos Movistar")
 	private java.lang.Boolean instalarEquiposMovistar;
 
 	public Servicio() {
@@ -234,6 +234,12 @@ public class Servicio implements java.io.Serializable {
 		this.instalarEquiposMovistar = instalarEquiposMovistar;
 	}
 
+	public String toString() {
+		return "Metodo toString " + this.esOnline + this.esVigente
+				+ this.equipo + this.ms + this.ds + this.ciudad
+				+ this.direccion + this.esUnAlta + this.banwidth;
+	}
+
 	public Servicio(java.lang.Boolean esOnline, java.lang.Boolean esVigente,
 			java.lang.String equipo, java.lang.String ms, java.lang.String ds,
 			java.lang.String ciudad, java.lang.String direccion,
@@ -269,10 +275,6 @@ public class Servicio implements java.io.Serializable {
 		this.mensaje = mensaje;
 		this.ordenTrabajo = ordenTrabajo;
 		this.instalarEquiposMovistar = instalarEquiposMovistar;
-	}
-	
-	public String toString() {
-		return "Metodo toString " + this.esOnline + this.esVigente + this.equipo + this.ms +  this.ds +  this.ciudad + this.direccion + this.esUnAlta + this.banwidth;
 	}
 
 }
