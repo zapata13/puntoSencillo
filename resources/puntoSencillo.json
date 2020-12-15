@@ -3,9 +3,13 @@
         "Servicio": {
             "esOnline": true,
             "esVigente": true,
-            "valorProyectoMax": 50,
+            "equipo": "Cisco",
+            "ms": "Internet",
+            "ds": "Punto Sencillo",
+            "ciudad": "Bogota",
+            "direccion": "Cra. 23b #80-64",
             "esUnAlta": true,
-            "presupuestoAprobado": true
+            "banwidth": 50
         }
     }
 }
