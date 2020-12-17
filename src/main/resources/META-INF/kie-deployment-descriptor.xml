@@ -12,7 +12,7 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.webservice.WebServiceWorkItemHandler()</identifier>
+            <identifier>new org.jbpm.process.workitem.webservice.WebServiceWorkItemHandler(ksession, runtimeManager.getEnvironment().getClassLoader())</identifier>
             <parameters/>
             <name>WebService</name>
         </work-item-handler>
