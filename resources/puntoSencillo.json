@@ -16,3 +16,28 @@
 
 // container id: puntoSencillo
 // process id:  puntoSencillo.PuntoSencilloBusinessProcess
+
+// ==============================================================
+// =                                                            =
+// =  Red Hat Process Automation Manager 7.9.0 setup complete.  =
+// =                                                            =
+// =  Start Red Hat Process Automation Manager with:            =
+// =                                                            =
+// =           ./target/jboss-eap-7.3/bin/standalone.sh         =
+// =                                                            =
+// =  Log in to Red Hat Process Automation Manager to start     =
+// =  developing rules projects:                                =
+// =                                                            =
+// =  http://localhost:8080/business-central                    =
+// =                                                            =
+// =    Log in: [ u:pamAdmin / p:redhatpam1! ]                  =
+// =                                                            =
+// =  http://localhost:8080/rhpam-case-mgmt-showcase            =
+// =                                                            =
+// =    Others:                                                 =
+// =            [ u:kieserver / p:kieserver1! ]                 =
+// =            [ u:caseUser / p:redhatpam1! ]                  =
+// =            [ u:caseManager / p:redhatpam1! ]               =
+// =            [ u:caseSupplier / p:redhatpam1! ]              =
+// =                                                            =
+// ==============================================================
